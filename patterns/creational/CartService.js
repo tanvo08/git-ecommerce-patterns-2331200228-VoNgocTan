@@ -8,12 +8,15 @@
 
 class CartService {
     constructor() {
-        // ... your implementation here ...
-        this.products = [];
+        if (CartService.instance) {
+            return CartService.instance;
+        }
+        this.items = [];
+        CartService.instance = this;
     }
 
     addProduct(product) {
-        this.products.push(product);
+        this.items.push(product);
     }
 
     removeProduct(productId) {
@@ -21,7 +24,7 @@ class CartService {
     }
 
     getProducts() {
-        return this.products;
+        return this.items;
     }
 }
 
