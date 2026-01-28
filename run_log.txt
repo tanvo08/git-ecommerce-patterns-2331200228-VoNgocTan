@@ -33,3 +33,12 @@ Flat Rate Shipping Cost: $10
 Weight-Based Shipping Cost: $7.5
 
 
+--- 4B: Command Pattern ---
+Initial Cart: [ { id: 1, name: 'Laptop', price: 1200 } ]
+Cart after executing command: [
+  { id: 1, name: 'Laptop', price: 1200 },
+  Electronic { name: 'MacBook Pro', price: 2500, brand: 'Unknown' }
+]
+Cart after undoing command: [ { id: 1, name: 'Laptop', price: 1200 } ]
+
+

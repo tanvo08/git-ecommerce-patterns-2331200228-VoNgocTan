@@ -11,12 +11,12 @@ class CartService {
         if (CartService.instance) {
             return CartService.instance;
         }
-        this.items = [];
+        this.products = [];
         CartService.instance = this;
     }
 
     addProduct(product) {
-        this.items.push(product);
+        this.products.push(product);
     }
 
     removeProduct(productId) {
@@ -24,7 +24,7 @@ class CartService {
     }
 
     getProducts() {
-        return this.items;
+        return this.products;
     }
 }
 
