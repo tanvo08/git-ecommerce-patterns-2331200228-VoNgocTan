@@ -27,5 +27,4 @@ class CartService {
         return this.products;
     }
 }
-
 export { CartService };
