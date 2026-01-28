@@ -17,3 +17,14 @@ Final Price: $70
 Final Description: Design Patterns, gift wrapped, with extended warranty
 
 
+--- 3B: Facade Pattern ---
+--- Facade: Processing Checkout ---
+[Inventory] Checking stock for products: 1, 3...
+[Inventory] All items are in stock.
+[Payment] Processing payment of $200 for user user-123...
+[Payment] Payment successful.
+[Shipping] Arranging shipment for user user-123 to 123 Main St...
+[Shipping] Shipment arranged successfully.
+Order placed successfully!
+
+
