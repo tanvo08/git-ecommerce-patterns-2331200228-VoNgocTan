@@ -1,0 +1,9 @@
+﻿--- E-Commerce Design Patterns Simulation ---
+===========================================
+
+--- 2A: Singleton Pattern ---
+Cart 1 contents: [ { id: 1, name: 'Laptop', price: 1200 } ]
+Cart 2 contents: [ { id: 1, name: 'Laptop', price: 1200 } ]
+Are cart1 and cart2 the same instance? true
+
+
