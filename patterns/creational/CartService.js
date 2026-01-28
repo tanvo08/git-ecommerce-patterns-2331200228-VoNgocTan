@@ -7,24 +7,25 @@
 // 5. Export the class.
 
 class CartService {
+    static instance = null;
     constructor() {
         if (CartService.instance) {
             return CartService.instance;
         }
-        this.products = [];
+        this.product = [];
         CartService.instance = this;
     }
 
     addProduct(product) {
-        this.products.push(product);
+        this.product.push(product);
     }
 
     removeProduct(productId) {
-        this.products = this.products.filter(p => p.id !== productId);
+        this.product = this.product.filter(p => p.id !== productId);
     }
 
     getProducts() {
-        return this.products;
+        return this.product;
     }
 }
 export { CartService };
