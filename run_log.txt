@@ -7,3 +7,13 @@ Cart 2 contents: [ { id: 1, name: 'Laptop', price: 1200 } ]
 Are cart1 and cart2 the same instance? true
 
 
+--- 2B: Factory Pattern ---
+Book: "The Pragmatic Programmer" by Unknown - $35
+Electronic: Unknown XPS 15 - $1500
+
+
+--- 3A: Decorator Pattern ---
+Final Price: $70
+Final Description: Design Patterns, gift wrapped, with extended warranty
+
+
