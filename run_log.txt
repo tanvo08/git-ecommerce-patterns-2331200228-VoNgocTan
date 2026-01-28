@@ -28,3 +28,8 @@ Final Description: Design Patterns, gift wrapped, with extended warranty
 Order placed successfully!
 
 
+--- 4A: Strategy Pattern ---
+Flat Rate Shipping Cost: $10
+Weight-Based Shipping Cost: $7.5
+
+
